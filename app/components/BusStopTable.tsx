@@ -54,7 +54,7 @@ const BusStopTable = ({ busLines }: BusStopTableProps) => {
                   key={stop.id}
                   className={`transition-colors duration-200 ${
                     stop.is_next_stop
-                      ? "bg-emerald-700 font-bold text-white"
+                      ? "bg-lime-500 font-bold text-white" // Highlight next stop with lime
                       : index % 2 === 0
                       ? "bg-emerald-800 text-white"
                       : "bg-emerald-700 text-white"
