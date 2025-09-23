@@ -15,9 +15,9 @@ import { BusLine } from "../data/amanaData";
 
 // Emoji Icons
 const busEmojiIcon = new L.DivIcon({
-  html: "🚌",
-  className: "text-2xl",
-  iconSize: [32, 32],
+  html: `<div class="bg-white-800 rounded-full w-7 h-7 text-xl flex items-center justify-center">🚌</div>`,
+  className: "",
+  iconSize: [64, 64],
   iconAnchor: [16, 32],
 });
 
