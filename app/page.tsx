@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
+import BusStatistics from "./components/BusStatistics";
 import BusStopTable from "./components/BusStopTable";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -31,6 +32,10 @@ export default function Home() {
           </h2>
           <BusStopTable busLines={amanaData.bus_lines} />
         </section>
+        <BusStatistics
+          busLines={amanaData.bus_lines}
+          operationalSummary={amanaData.operational_summary}
+        />
       </main>
       <Footer />
     </div>
