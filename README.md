@@ -1,3 +1,5 @@
+<img width="1024" height="1024" alt="unnamed (2)" src="https://github.com/user-attachments/assets/9fec8e34-1757-47a6-89ab-c6afde3ee387" />
+
 # 🚍 Amana Transportation Assignment – Solution Repository
 
 Welcome to the solution repository for **Unit 02: Homework Assignment – AI Blitz** from the Amana Full Stack Development Bootcamp. This project transforms a simple prototype into a fully functional Amana Transportation application utilizing **Next.js** ⚛️, **Tailwind CSS** 🎨, and **Leaflet.js** 🗺️—with the power of AI to accelerate development.
